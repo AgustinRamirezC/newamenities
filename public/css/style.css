@@ -1,0 +1,1789 @@
+@font-face {
+    font-family: 'NotoSans-Regular';
+    src: url(../fuente/NotoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'NotoSans-Light';
+    src: url(../fuente/NotoSans-Light.ttf);
+}
+
+@font-face {
+    font-family: 'NotoSans-Medium';
+    src: url(../fuente/NotoSans-Medium.ttf);
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Style header */
+
+nav.header{ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 65px;
+    align-items: center;
+}
+
+nav.header div.logo img.imgLOGO{
+    width: 100px;
+    height: auto;
+    object-fit: fill;
+}
+
+nav.header div.links{
+    display: flex;
+    flex-direction: row;
+}
+
+nav.header div.links ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+nav.header div.links ul li a{
+    margin: 0 10px;
+    padding: 0px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'NotoSans-Regular';
+    font-size: small;
+}
+
+nav.header div.links ul li a:hover{
+    color: #0B8C8C;
+}
+
+nav.header div.links ul li a:focus{
+    color: #0B8C8C;
+}
+
+div.buscador-insta{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end; 
+    text-align: right; 
+    margin: 0 auto;
+}
+
+div.buscador-insta a{
+    margin-left: 15px;
+}
+
+/* Home */
+
+div.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.logomundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logowpp{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end; /* Cambié "end" a "flex-end" */
+    text-align: right; /* Cambié "end" a "right" */
+    margin: 0 auto;
+    margin: 30px;
+}
+
+/* Sobre Nosotros */
+
+nav.sobrenosotros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px;
+}
+
+nav.sobrenosotros div.parrafocha{
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 10px;
+    max-width: 50%;
+}
+
+nav.sobrenosotros div.parrafocha h2{
+    font-family: 'NotoSans-Regular';
+    font-size: 51px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+nav.sobrenosotros div.parrafocha p{
+    font-family: 'NotoSans-Light';
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+nav.sobrenosotros img{
+    width: 330px;
+    height: 230px;
+    object-fit: fill;
+}
+
+div.bienvenidoss{
+    display: flex;
+    flex-wrap: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/shampoo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 100px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+div.bienvenidoss h3{
+    font-family: 'NotoSans-Regular';
+    font-size: 29px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+
+div.bienvenidoss p{
+    font-family: 'NotoSans-Light';
+    font-size: 17px;
+    line-height: 1.8;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+/* Sustentabilidad*/
+
+
+/*Header sustentabilidad*/
+
+i {
+    color: #fff;
+}
+
+.sustentabilidad-header{ 
+    position: relative;
+    height: 700px; 
+}
+
+.sustentabilidad-header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para asegurarse de que el video cubra todo el encabezado */
+    z-index: -1; /* Coloca el video detrás del contenido del encabezado */
+  }
+
+.cajatextos{
+    position: relative;
+    display: flex;
+    flex-direction: row; /* Alinea los elementos en una fila horizontal */
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding-top: 30px;
+    padding-left: 65px;
+}
+
+nav.sustentabilidad-header div.logosustentabilidad{
+    display: flex;
+    align-items: center;
+}
+
+nav.sustentabilidad-header div.logosustentabilidad img.imgLOGOblanco{
+    width: 105px;
+    height: auto;
+    object-fit: fill;
+}
+
+nav.sustentabilidad-header div.linkssustentabilidad{
+    display: flex;
+    flex-direction: row;
+}
+
+nav.sustentabilidad-header div.linkssustentabilidad ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;  
+}
+
+nav.sustentabilidad-header div.linkssustentabilidad ul li a{
+    margin: 0 10px;
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'NotoSans-Regular';
+    font-size: small;
+}
+
+nav.sustentabilidad-header div.linkssustentabilidad ul li a:hover{
+    color: #0B8C8C;
+}
+
+nav.sustentabilidad-header div.linkssustentabilidad ul li a:focus{
+    color: #0B8C8C;
+}
+
+nav.sustentabilidad-header div.linkssustentabilidad ul li.negro a{
+    margin: 0 10px;
+    padding: 0px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'NotoSans-Regular';
+    font-size: small;
+}
+
+nav.sustentabilidad-header div.linkssustentabilidad ul li.negro a:hover{
+    color: #0B8C8C;
+}
+
+nav.sustentabilidad-header div.linkssustentabilidad ul li.negro a:focus{
+    color: #0B8C8C;
+}
+
+div.buscador-instasustentabilidad{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; /* Cambié "end" a "flex-end" */
+    text-align: right; /* Cambié "end" a "right" */
+    margin: 0 auto;
+}
+
+div.buscador-instasustentabilidad a{
+    margin-left: 15px;
+}
+
+/**/
+
+nav.quehacemos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 90px;
+}
+
+.gracias{
+    margin-top: 10px;
+    font-family: 'NotoSans-Regular';
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+nav.quehacemos img{
+    justify-content: flex-start;
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+}
+
+nav.quehacemos div.quehacemos2{
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: left;
+    max-width: 40%;
+}
+
+nav.quehacemos div.quehacemos2 h2{
+    font-family: 'NotoSans-Medium';
+    font-size: 35px;
+    margin-bottom: 1px;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
+nav.quehacemos div.quehacemos2 p{
+    font-family: 'NotoSans-Light';
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Productos */
+
+div.parrafoiproductos{
+    display: flex;
+    flex-wrap: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+div.parrafoiproductos h3{
+    color: #0B8C8C;
+    font-family: 'NotoSans-Regular';
+    font-size: 30px;
+    margin-top: 1px;
+    font-weight: lighter;
+}
+
+div.parrafoiproductos p{
+    font-family: 'NotoSans-Light';
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 70px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav.productos{
+    display: flex;
+    flex-wrap: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+nav.productos h3{
+    font-family: 'NotoSans-Regular';
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+
+nav.productos img{
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+}
+
+nav.productos a{
+    border-radius: 8px; 
+    background-color: #0B8C8C;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 6px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'NotoSans-Medium';
+    margin-bottom: 50px;
+}
+
+div.amenitiesproducto{
+    display: flex;
+    flex-wrap: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+div.amenitiesproducto{
+    width: 500px;
+    height: auto;
+    object-fit: fill;
+}
+
+div.amenitiesproducto h3{
+    font-family: 'NotoSans-Regular';
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+
+div.amenitiesproducto a{
+    border-radius: 8px; 
+    background-color: #0B8C8C;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 6px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'NotoSans-Medium';
+    margin-bottom: 50px;
+    margin-left: 218px;
+    margin-right: 218px;
+}
+
+/* Jabones, frascos y amenities*/
+
+.paratras{
+    margin-top: 50px;
+    margin-left: 65px;
+}
+
+div.infojabones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+div.infojabones h3{
+    color: #0B8C8C;
+    font-family: 'NotoSans-Regular';
+    font-size: 30px;
+    margin-top: 1px;
+    font-weight: lighter;
+}
+
+div.infojabones p{
+    font-family: 'NotoSans-Light';
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 70px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav.jabones{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+nav.jabones img{
+    width: 250px;
+    height: 250px;
+    object-fit: fill;
+}
+
+nav.jabones p{
+    font-family: 'NotoSans-Light';
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+nav.jabones div.cartajabones{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+/* Detalle Amenities */
+
+.caja-detalle{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%; /* Ajusta según tus necesidades */
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.detalle{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 45%; /* Puedes ajustar el ancho según tus necesidades */
+    margin-right: 2%; /* Añade un pequeño margen entre los elementos */
+    box-sizing: border-box;   
+}
+
+.detalle h3{
+    color: black;
+    font-family: 'NotoSans-Medium';
+    font-size: 37px;
+    font-weight: bolder;
+}
+.detalle p{
+    font-family: 'NotoSans-Light';
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.detalle-img{
+    display: inline-block;
+    width: 48%; /* Puedes ajustar el ancho según tus necesidades */
+    margin-right: 2%; /* Añade un pequeño margen entre los elementos */
+    box-sizing: border-box;
+}
+
+.detalle-img img{
+    width: 500px;
+    height: 500px;
+    object-fit: fill;
+}
+
+/* Clientes */
+
+.caja-clientes{
+    /*display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+    margin-left: 10%;
+}
+
+div.clientes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+div.clientes h3{
+    font-family: 'NotoSans-Medium';
+    font-size: 45px;
+    margin-bottom: 9px;
+    margin-top: 70px;
+    font-weight: lighter;
+}
+
+div.clientes p{
+    font-family: 'NotoSans-Light';
+    margin-top: 1px;
+    margin-bottom: 30px;
+}
+
+div.fotos-clientes img{
+    width: 800px;
+    height: 1000px;
+    object-fit: fill;
+    margin-bottom: 100px;
+}
+
+/* Contacto */
+
+div.tituloyp{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 460px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+div.tituloyp h2{
+    font-family: 'NotoSans-Regular';
+    font-size: 47px;
+    font-weight: lighter;
+    margin-bottom: 1px;
+}
+
+div.tituloyp p{
+    font-family: 'NotoSans-Light';
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 70%;
+}
+
+nav.container-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 200px;
+}
+
+div.iconos{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-top: 18px;
+}
+
+div.iconos img{
+    margin-bottom: 40px;
+}
+
+div.caja-textos{
+    display: flex;
+    flex-direction: column; 
+    margin-right: 0px;
+}
+
+div.caja-textos p{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-family: 'NotoSans-Light';
+    font-size: 13.3px;
+}
+
+div.caja-textos a{
+    margin-bottom: 15px;
+    font-family: 'NotoSans-Light';
+    font-size: 13.3px;
+    margin-top: 28px;
+    color: #0B8C8C;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div.caja-textos a:hover{
+    color: black;
+}
+
+div.caja-textos p.telefono{
+    margin-top: 29px;
+}
+
+div.caja-textos p.horario{
+    margin-top: 28px;
+}
+ 
+div.caja-textos p.contactanos{
+    margin-top: 40px;
+    max-width: 70%;
+}
+
+div.caja-formcontacto{
+    margin-left: 20px;
+}
+
+form.formulario-contacto{
+    display: flex;
+    flex-direction: column; 
+}
+
+form.formulario-contacto input{
+    margin-bottom: 15px;
+    width: 100%; /* Ancho completo del formulario */
+    padding: 10px; /* Espacio interno */
+    border: transparent; /* Borde con color gris claro */
+    border-bottom: solid 1px #ccc;
+    margin-top: 10px;
+}
+
+.campo-nombre-apellido {
+    display: flex;
+    gap: 30px; 
+  }
+
+textarea {
+    padding-bottom: 60px;
+    padding-left: 10px;
+    border: transparent; /* Borde con color gris claro */
+    border-bottom: solid 1px #ccc;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+
+button.botoncontacto {
+    background-color: #0B8C8C; 
+    color: #fff; 
+    border: none; 
+    border-radius: 50px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    height: 40px;
+    width: 140px;
+  }
+  
+  button.botoncontacto:hover {
+    background-color: #085e5e; 
+  }
+
+div.mapa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+iframe.mapa2{
+    width: 800px;
+    height: 250px;
+    border-radius: 50px;
+    border-style: hidden;
+}
+
+/* Buscados */
+
+nav.caja-buscador{
+    margin-top: 30px;
+    min-height: 60vh;
+}
+
+nav.buscador .busqueda-wrapper {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    width: 100%;
+  }
+
+nav.buscador input.formulario{
+    background-size: 24px;
+    width: 80.5%;
+    border: transparent;
+    border-bottom: solid 1px #ccc;
+    outline: none;
+    margin-left: 60px;
+}
+
+nav.buscador .busqueda-wrapper button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+div.resultados{
+justify-content: center;
+text-align: left;
+max-width: 80%; /* Ajusta según tus necesidades */
+margin: 0 auto;
+margin-right: 50px;
+margin-left: 50px;
+}
+
+div.resultados .info {
+display: flex;
+flex-direction: column;
+}
+
+div.resultados ul li{
+list-style: none;
+display: grid;
+grid-template-columns: 1fr 1fr; /* Divide el contenido en dos columnas */
+align-items: center; 
+grid-area: 100px;
+}
+
+div.resultados img{
+width: 500px;
+height: 500px;
+object-fit: fill;
+justify-self: end;
+}
+
+div.resultados p{
+font-family: 'NotoSans-Light';
+font-size: 15px;
+line-height: 1.5;
+font-weight: bold;
+}
+
+div.resultados h3{
+color: black;
+font-family: 'NotoSans-Regular';
+font-size: 30px;
+}
+
+/* Footer */
+
+nav.caja-footer{
+    width: 100%;
+}
+
+nav.footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+nav.footer div.barrabajo{
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav.footer div.barrabajo ul{
+    list-style: none;
+}
+
+nav.footer div.barrabajo ul li{
+    padding: 6px;
+}
+
+nav.footer div.barrabajo ul li a{
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'NotoSans-Regular';
+    font-size: 12px;
+}
+
+nav.footer div.barrabajo ul li a:hover{
+    color: #0B8C8C;
+}
+
+nav.footer div.divalado{
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+nav.footer div.divalado ul{
+    list-style: none;
+}
+
+nav.footer div.divalado ul li{
+    padding: 6px;
+}
+
+nav.footer div.divalado ul li a{
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'NotoSans-Regular';
+    font-size: 12px;
+}
+
+nav.footer div.divalado ul li a:hover{
+    color: #0B8C8C;
+}
+
+nav.footer p{
+    font-family: 'NotoSans-Light';
+    font-size: 13px;
+}
+
+p.copyright{
+    font-family: 'NotoSans-Light';
+    font-size: 13px;
+    margin-left: 64px;
+}
+
+div.seguinos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: flex-end;
+    margin: 0 auto;
+    margin-left: auto;
+}
+
+.formulariofooter{
+    display: flex;
+    align-items: baseline;
+}
+
+.mailfooter{
+  width: 100%; /* Ancho completo del formulario */
+  padding: 10px; /* Espacio interno */
+  border: transparent; /* Borde con color gris claro */
+  border-bottom: solid 1px #ccc;
+}
+
+.botonfooter {
+  background-color: #0B8C8C; /* Fondo azul */
+  color: #fff; /* Texto blanco */
+  border: none; /* Sin borde */
+  border-radius: 50px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espacio interno */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  flex: none;
+  margin-left: 50px;
+}
+
+button.botonfooter:hover {
+  background-color: #085e5e; /* Color azul más oscuro */
+}
+
+
+@media (max-width: 810px) {
+
+    .mobile-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0 20px; /* Añade espaciado para mayor claridad */
+    }
+    
+    .headercelular {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        margin: 30px;
+    }
+    .logocelular img{
+        width: 100px;
+        height: auto;
+        object-fit: fill;
+    }
+    .logocelular {
+        flex: 1; /* El logocelular ocupa todo el espacio disponible a la izquierda */
+    }
+    
+    .celulartodolootro {
+        display: flex;
+        align-items: center;
+    }
+    
+    .celulartodolootro a,
+    .celulartodolootro button {
+        margin-left: 10px; /* Añade espaciado entre los elementos de celulartodolootro */
+    }
+
+    .button-menu {
+        background: none; /* Elimina el fondo */
+        border: none; /* Elimina el borde */
+        cursor: pointer; /* Cambia el cursor al pasar por encima */
+      }
+      
+      .button-menu:focus {
+        outline: none; /* Elimina el contorno al hacer clic en el botón (para accesibilidad) */
+      }
+
+    .aparezco {
+        position: absolute; 
+        top: 5%; 
+        right: 0; 
+        padding: 30px;
+        margin-top: 10px;
+      }
+      
+      .aparezco ul {
+        list-style: none;
+        padding: 10px;
+        text-align: right;
+        background-color: white;
+        opacity: 0.8;
+        border-radius: 10px;
+      }
+      
+      .aparezco ul li {
+        margin-bottom: 30px; /* Añade espacio entre elementos del menú */
+      }
+      .aparezco ul li a{
+        text-decoration: none;
+        color: black;
+        font-family: 'NotoSans-Regular';
+        font-size: small;           
+      }
+
+/*sobre nosotros*/
+
+nav.sobrenosotros{
+    margin: 70px;
+    margin-bottom: 100px;
+}
+
+nav.sobrenosotros div.parrafocha{
+    padding: 0px;
+    max-width: 50%;
+}
+
+nav.sobrenosotros div.parrafocha p{
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+nav.sobrenosotros div.parrafocha h2{
+    font-size: 45px;
+}
+
+nav.sobrenosotros img{
+    width: 300px;
+    height: 200px;
+    object-fit: fill;
+    margin-left: 10px;
+}
+
+  div.bienvenidoss {
+    padding: 40px; /* Ajusta el relleno según tus necesidades */
+    margin-top: 40px; /* Ajusta el margen superior según tus necesidades */
+    margin-bottom: 80px; /* Ajusta el margen inferior según tus necesidades */
+  }
+
+  div.bienvenidoss h3,
+  div.bienvenidoss p {
+    margin-left: 20px; /* Ajusta el margen izquierdo según tus necesidades */
+    margin-right: 20px; /* Ajusta el margen derecho según tus necesidades */
+  }
+ 
+  div.bienvenidoss h3 {
+    font-size: 20px; /* Ajusta el tamaño de fuente según tus necesidades */
+  }
+  
+  div.bienvenidoss p {
+    font-size: 14px; /* Ajusta el tamaño de fuente según tus necesidades */
+  }
+
+/*productos*/
+div.parrafoiproductos h3{
+    font-size: 25px;
+}
+
+div.parrafoiproductos p{
+    font-size: 14px;
+}
+
+nav.productos h3{
+    font-size: 25px;
+}
+
+nav.productos img{
+    width: 350px;
+    height: 350px;
+    object-fit: fill;
+}
+
+nav.productos a{
+    font-size: 11px;
+}
+
+div.amenitiesproducto{
+    width: 350px;
+    height: auto;
+    object-fit: fill;
+}
+
+div.amenitiesproducto h3{
+    font-size: 25px;
+}
+
+div.amenitiesproducto a{
+    font-size: 11px;
+    margin-left: 143px;
+    margin-right: 143px;
+}
+
+/* Jabones, frascos y amenities*/
+
+div.infojabones h3{
+    font-size: 25px;
+}
+
+div.infojabones p{
+    font-size: 14px;
+    width: 65%;
+}
+
+nav.jabones{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+nav.jabones img{
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+}
+
+nav.jabones p{
+    font-size: 13px;
+}
+
+/* Detalle Amenities */
+
+.caja-detalle{
+    flex-direction: column;
+    max-width: 100%; /* Ajusta según tus necesidades */
+}
+
+.detalle{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+.detalle h3{
+    font-size: 35px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+.detalle p{
+    font-size: 23px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.detalle-img img{
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+}
+
+/*sustentabilidad*/
+
+/*header*/
+.sustentabilidad-header {
+    position: relative;
+  }
+
+  .cascada {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta el video para cubrir todo el encabezado */
+    z-index: -1; /* Coloca el video detrás del contenido */
+  }
+  
+  .sustentabilidadcelular {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .logosustcelular img {
+    width: 100px;
+    height: auto;
+    object-fit: fill;
+  }
+  
+  .logosustcelular {
+    flex: 1;
+    margin: 25px;
+  }
+  
+  .sustceltodolootro {
+    display: flex;
+    align-items: center;
+    margin: 25px;
+  }
+  
+  .sustceltodolootro a,
+  .sustceltodolootro button {
+    margin-left: 10px;
+  }
+  
+  .button-menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-menu:focus {
+    outline: none;
+  }
+  
+  .sustentabilidadaparezco {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    padding: 30px;
+    margin-top: 10px;
+    z-index: 1;
+  }
+  
+  .sustentabilidadaparezco ul {
+    list-style: none;
+    padding: 10px;
+    text-align: right;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+  
+  .sustentabilidadaparezco ul li {
+    margin-bottom: 30px;
+  }
+  
+  .sustentabilidadaparezco ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'NotoSans-Regular';
+    font-size: small;
+  }
+  
+
+/**/
+nav.quehacemos{
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+nav.quehacemos img{
+    width: 350px;
+    height: 350px;
+}
+
+nav.quehacemos div.quehacemos2{
+    max-width: 30%;
+}
+
+nav.quehacemos div.quehacemos2 h2{
+    font-size: 25px;
+}
+
+nav.quehacemos div.quehacemos2 p{
+    font-size: 11px;
+}
+
+/*clientes*/
+
+div.fotos-clientes img{
+    width: 650px;
+    height: 900px;
+}
+
+div.clientes h3{
+    font-size: 45px;
+}
+
+/*contacto*/
+
+div.tituloyp{
+    margin-left: 400px;
+}
+
+div.tituloyp p{
+    width: 90%;
+}
+
+nav.container-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+iframe.mapa2{
+    width: 640px;
+}
+
+/*buscador*/
+
+nav.buscador input.formulario{
+    width: 83%;
+    margin-left: 20px;
+}
+
+/*footer*/
+
+    nav.footer div.barrabajo ul li{
+        padding: 6px;
+    }
+    
+    nav.footer div.barrabajo ul li a{
+        margin: 6px;
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: 'NotoSans-Regular';
+        font-size: 10px;
+    }
+    
+    nav.footer div.divalado ul li{
+        padding: 6px;
+    }
+    
+    nav.footer div.divalado ul li a{
+        margin: 6px;
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: 'NotoSans-Regular';
+        font-size: 10px;
+    }
+    
+    nav.footer div.divalado ul li a:hover{
+        color: #0B8C8C;
+    }
+    
+    nav.footer p{
+        font-family: 'NotoSans-Light';
+        font-size: 11px;
+    }
+    
+    p.copyright{
+        font-family: 'NotoSans-Light';
+        font-size: 11px;
+        margin-left: 64px;
+    }
+    
+    .seguinos{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin-left: 70px;
+        margin-bottom: 10px;
+    }
+
+  }
+  
+  /* Estilos para celular (430px) */
+  @media (max-width: 430px) {
+    .mobile-header {
+      display: block;
+    }   
+    .headercelular {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        align-items: center;
+        margin-right: 1000px;
+    }
+    .celulartodolootro a,
+    .celulartodolootro button {
+        margin-left: 10px; /* Añade espaciado entre los elementos de celulartodolootro */
+    }
+
+    .aparezco{
+        margin-top: 10px;
+    }
+
+/* Home */
+
+div.video video{
+    height: 490px;
+}
+
+.logowpp{
+    margin: 30px;
+    margin-top: 100px;
+}
+
+/*sobrenosotros*/
+
+nav.sobrenosotros{
+    flex-direction: column;
+    margin: 10px;
+}
+
+nav.sobrenosotros div.parrafocha{
+    text-align: left;
+    padding: 10px;
+    max-width: 100%;
+}
+
+nav.sobrenosotros div.parrafocha h2{
+    font-size: 40px;
+}
+
+nav.sobrenosotros div.parrafocha p{
+    font-size: 13px;
+}
+
+nav.sobrenosotros div.logoconparrafo{
+    padding: 10px;
+}
+
+nav.sobrenosotros div.logoconparrafo img{
+    width: 300px;
+    height: 200px;
+    object-fit: fill;
+}
+
+div.bienvenidoss{
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+div.bienvenidoss h3{
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+div.bienvenidoss p{
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+/*productos*/
+
+div.parrafoiproductos h3{
+    font-size: 23px;
+}
+
+div.parrafoiproductos p{
+    font-size: 13px;
+    width: 86%;
+}
+
+nav.productos{
+    flex-direction: column;
+}
+
+nav.productos h3{
+    font-size: 23px;
+    margin-bottom: 14px;
+}
+
+nav.productos img{
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+}
+
+nav.productos a{
+    font-size: 10px;
+}
+
+nav.productos div{
+    margin-bottom: 30px;
+}
+
+div.amenitiesproducto{
+    width: 300px;
+    height: auto;
+    object-fit: fill;
+}
+
+div.amenitiesproducto h3{
+    font-size: 20px;
+}
+
+div.amenitiesproducto a{
+    font-size: 10px;
+    margin-left: 121px;
+    margin-right: 121px;
+}
+
+/*jabones,frascosyamenities*/
+
+.paratras{
+    margin-left: 30px;
+}
+
+div.infojabones h3{
+    font-size: 26px;
+}
+
+div.infojabones p{
+    font-size: 13px;
+    width: 78%;
+}
+
+nav.jabones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav.jabones img{
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+}
+
+nav.jabones p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+nav.jabones div.cartajabones{
+    margin-bottom: 50px;
+}
+
+/* Detalle Amenities */
+
+.caja-detalle{
+    flex-direction: column;
+    max-width: 100%; /* Ajusta según tus necesidades */
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.detalle{
+    display: flex;
+    justify-content: center;
+    width: 70%; /* Puedes ajustar el ancho según tus necesidades */
+    margin-right: 0px;
+}
+
+.detalle h3{
+    font-size: 26px;
+}
+.detalle p{
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.detalle-img{
+    display: flex;
+    justify-content: center;
+    width: 70%; /* Puedes ajustar el ancho según tus necesidades */
+    margin-right: 0%;
+}
+
+.detalle-img img{
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+}
+
+/*sustentabilidad*/
+
+/*header*/
+
+.sustentabilidad-header {
+    position: relative;
+    height: 500px;
+  }
+
+.cascada {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta el video para cubrir todo el encabezado */
+    z-index: -1; /* Coloca el video detrás del contenido */
+  }
+
+  .sustentabilidadaparezco {
+    margin-top: 10px;
+  }
+  
+/**/
+nav.quehacemos{
+    flex-direction: column; /* Cambia el flujo de los elementos a columna */
+    align-items: center;
+    margin: 0px;
+}
+
+.gracias{
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+nav.quehacemos img{
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+}
+
+nav.quehacemos div.quehacemos2{
+    order: -1; 
+    text-align: left;
+    margin: 40px;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+nav.quehacemos div.quehacemos2 h2{
+    font-size: 40px;
+}
+
+nav.quehacemos div.quehacemos2 p{
+    font-size: 13px;
+}
+
+/*clientes*/
+
+div.fotos-clientes img{
+    width: 350px;
+    height: 500px;
+}
+
+div.clientes h3{
+    font-size: 40px;
+}
+
+div.clientes p{
+    font-size: 13px;
+}
+
+/*contacto*/
+
+div.tituloyp{
+    justify-content: flex-start;
+    margin: 0 auto;
+    margin-left: 40px;
+}
+
+div.tituloyp h2{
+    font-size: 40px;
+}
+div.tituloyp p{
+    font-size: 13px;
+    width: 90%;
+}
+
+nav.container-contacto{
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Dos columnas */
+    gap: 0px;
+    align-items: center;
+}
+
+div.caja-formcontacto{
+    grid-column: 1 / 3; 
+    margin-bottom: 60px;
+    order: -1;
+    width: 100%;
+    margin-left: 25px;
+}
+
+form.formulario-contacto input{
+    margin-bottom: 15px;
+    width: 79%; 
+    margin-top: 10px;
+}
+
+.campo-nombre-apellido {
+    gap: 6px; 
+  }
+
+textarea {
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+
+div.iconos {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 40px;
+    margin-bottom: 150px;
+}
+
+div.iconos img{
+    margin-bottom: 42px;
+}
+
+div.caja-textos {
+    display: flex;
+    flex-direction: column; 
+    margin-right: 130px;
+}
+
+div.caja-textos p.contactanos{
+    max-width: 100%;
+}
+
+iframe.mapa2{
+    width: 350px;
+    height: 200px;
+    border-radius: 50px;
+    border-style: hidden;
+}
+
+/*buscador*/
+
+nav.buscador input.formulario{
+    width: 59.3%;
+    margin-left: 48px;
+}
+
+div.resultados{
+margin-right: 0px;
+margin-left: 0px;
+max-width: 100%; /* Ajusta según tus necesidades */
+margin: 0 auto;
+}
+
+div.resultados ul li{
+grid-area: 10px;
+margin-bottom: 60px;
+}
+
+div.resultados img{
+width: 180px;
+height: 180px;
+object-fit: fill;
+justify-self: end;
+margin-right: 50px;
+}
+
+div.resultados p{
+font-size: 11px;
+}
+
+div.resultados h3{
+font-size: 25px;
+}
+
+/*footer*/
+
+nav.footer div.barrabajo ul li{
+    padding: 2px;
+}
+
+nav.footer div.barrabajo ul li a{
+    margin: 0px;
+    padding: 10px;
+    font-size: 8px;
+}
+
+nav.footer div.divalado ul li{
+    padding: 2px;
+}
+
+nav.footer div.divalado ul li a{
+    margin: 0px;
+    margin-left: 0px;
+    padding: 10px;
+    font-size: 8px;
+}
+
+nav.footer p{
+    font-size: 8px;
+}
+
+p.copyright{
+    font-size: 11px;
+    margin-left: 55px;
+}
+
+.seguinos{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.mailfooter{
+  padding: 7px; /* Espacio interno */
+}
+
+.botonfooter {
+  padding: 7px 12px; /* Espacio interno */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+  }
